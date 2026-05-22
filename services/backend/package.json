@@ -1,0 +1,27 @@
+{
+  "name": "rpa-orchestrator-backend",
+  "version": "1.0.0",
+  "description": "Enterprise RPA Orchestrator API Backend - Galaxy Toyota CTDMS System",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "ioredis": "^5.4.1",
+    "bullmq": "^5.8.3",
+    "pg": "^8.11.5",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "@types/node": "^20.12.12",
+    "@types/express": "^4.17.21",
+    "@types/cors": "^2.8.17",
+    "@types/pg": "^8.11.6",
+    "ts-node": "^10.9.2"
+  }
+}

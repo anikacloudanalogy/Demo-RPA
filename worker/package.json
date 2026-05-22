@@ -1,0 +1,22 @@
+{
+  "name": "rpa-orchestrator-worker",
+  "version": "1.0.0",
+  "description": "Enterprise RPA Playwright worker for Toyota CTDMS automation",
+  "main": "dist/rpa_worker.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/rpa_worker.js",
+    "dev": "ts-node src/rpa_worker.ts"
+  },
+  "dependencies": {
+    "playwright": "^1.44.0",
+    "ioredis": "^5.4.1",
+    "bullmq": "^5.8.3",
+    "axios": "^1.6.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "@types/node": "^20.12.12",
+    "ts-node": "^10.9.2"
+  }
+}
